@@ -27,5 +27,9 @@ You can connect to ElasticSearch pointing your browser at
  - http://192.168.29.7:9200/
  - or http://elasticsearch17.dev:9200/ (if you are using the dns)
 
+## ElasticSearch Plugins
+ - Marvel http://elasticsearch17.dev:9200/_plugin/marvel
+ - ElasticSearch HQ http://elasticsearch17.dev:9200/_plugin/HQ/
+ - kopf http://elasticsearch17.dev:9200/_plugin/kopf/
 
  Happy Hacking

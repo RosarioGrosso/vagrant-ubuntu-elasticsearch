@@ -8,4 +8,5 @@ Vagrant.configure("2") do |config|
         v.memory = 1024
         v.cpus = 1
     end
+    config.vm.synced_folder "/tmp/es_backups", "/tmp/es_backups"
 end
