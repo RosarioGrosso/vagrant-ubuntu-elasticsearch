@@ -1,6 +1,25 @@
-# ElasticSearch 1.7.x Vagrant Machine
+# ElasticSearch Vagrant Machine
 
+## BRANCH Master
 ## Installed Packages:
+
+- Ubuntu 14.04
+- Sun Java 8
+- ElasticSearch 2.0
+- ElastisSearch Plugins:
+
+
+
+
+
+
+
+
+
+
+## BRANCH 1.7
+## Installed Packages:
+
 - Ubuntu 14.04
 - Sun Java 8
 - ElasticSearch 1.7.x
