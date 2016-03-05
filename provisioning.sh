@@ -14,7 +14,7 @@ sudo apt-get update
 sudo apt-get install elasticsearch
 sudo update-rc.d elasticsearch defaults 95 10
 #starting from 2.0 ES is listening only on localhost by default. Add the IP
-cat "network.host: 192.168.29.200" >> /etc/elasticsearch/elasticsearch.yml
+echo "network.host: 192.168.29.200" >> /etc/elasticsearch/elasticsearch.yml
 # SysV init distributions - Ubuntu
 sudo /etc/init.d/elasticsearch start
 
